@@ -187,7 +187,6 @@
   cfg80211_update_owe_info_event
   cfg80211_vendor_cmd_get_sender
   cfg80211_vendor_cmd_reply
-  __cfi_slowpath
   __check_object_size
   check_preempt_curr
   __class_create
@@ -828,8 +827,6 @@
   dw_pcie_read
   dw_pcie_setup_rc
   dw_pcie_write
-  __dynamic_dev_dbg
-  __dynamic_pr_debug
   em_cpu_get
   emergency_restart
   enable_irq
